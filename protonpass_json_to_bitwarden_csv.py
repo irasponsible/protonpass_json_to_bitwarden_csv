@@ -63,7 +63,7 @@ for vault in vaults.keys():
         export.append(pw)
 
 # Export to CSV
-headers = ['name', 'login_uri', 'login_username', 'logn_password', 'folder', 'notes', 'type', 'favorite', 'reprompt', 'fields', 'login_totp']
+headers = ['name', 'login_uri', 'login_username', 'login_password', 'folder', 'notes', 'type', 'favorite', 'reprompt', 'fields', 'login_totp']
 
 
 with open(export_filename, 'x', newline='') as expfile:
